@@ -11,6 +11,11 @@ public class numeros {
         int menor = n1;
         int maior = 0;
 
+        if(n1 == n2 || n1 == n3 || n2 == n3){
+            System.out.println("Números iguais inseridos. Digite números diferentes");
+            return;
+        }
+
         if (n1 > maior){
             maior = n1;
         }
